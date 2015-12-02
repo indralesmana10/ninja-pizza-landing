@@ -173,6 +173,9 @@ p {
 }
 
 @media (min-width: 991px) {
+	body{
+		overflow: hidden;
+	}
     .col-form {
         position: relative;
         top: -470px;
@@ -186,6 +189,12 @@ p {
 }
 
 @media (max-width: 991px) {
+	body{
+		overflow: visible;
+	}
+	.col-form{
+		padding-bottom: 25px;
+	}
     #phone-video {
         display: none;
     }
@@ -210,6 +219,7 @@ p {
         height: auto;
     }
     #left-content {
+    	width: 100%;
         height: auto;
         position: relative;
         top: 0;
