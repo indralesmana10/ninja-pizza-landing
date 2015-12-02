@@ -143,6 +143,7 @@ p {
     .video-phone {
         position: relative;
         top: 0;
+        display: block;
     }
     .input-group input,
     .input-group button {
