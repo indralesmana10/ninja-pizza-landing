@@ -10,7 +10,12 @@ body,
     border: 0px!important;
     margin: 0!important;
 }
-
+.navbar-brand{
+	width: 80px
+}
+.navbar-default img{
+ 	width: 100%;
+}
 .container-landing {
     width: 80%;
     height: 100%;
@@ -83,6 +88,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     background-color: #f5f4f4;
+    border-color: :#f5f4f4;
 }
 
 .input-group button {
